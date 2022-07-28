@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px;
+    background-color: #35BD17;
+}
+.cheminaviagecua ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cheminaviagecua ul li a{
+    padding: 5px 10px;
+    color: #000000;
+}
+.yvavili{
+    max-width: 100%;
+}
+.picture{
+    width: 100%;
+}
+
+.box{
+    width: 20%;
+    height: 50px;
+    background-color: #35BD17;
+    float: left;
+    margin-bottom: 50px;
+}
+.box2{
+    width: 50%;
+    background-color: #35BD17;
+}
+.box3{
+    width: 30%;
+    background-color: #35BD17;
+}
+.statiebi{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    background-color: #35BD17;
+    width: 400px;
+    clear: both;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+article .img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+article .img img{
+    width: 100%;
+}
+
+.fa-bars{
+    font-size: 28px;
+}
+.bar{
+    display: none;
+}
+.example {
+    display: grid;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
+
+
+.col-sm-2{
+    height: 50px;
+    background-color: #35BD17;
+}
+.col-sm-8{
+    height: 50px;
+    background-color: #35BD17;
+}
+.pirveli{
+    background-color: #35BD17;
+}
+.meore{
+    background-color: #35BD17;
+}
+
+.btstrp header{
+    padding: 0;
+}
+.navbar-inverse{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+@media only screen and (max-width: 820px) {
+    body{
+        background-color: red;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    body{
+        background-color: rgb(69, 7, 7);
+    }
+    .text{
+        font-size: 24px;
+        color: #ffffff;
+    }
+    .box{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .bar{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 272px) {
+    
+}

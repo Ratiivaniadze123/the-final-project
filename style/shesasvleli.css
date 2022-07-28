@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: none;
+}
+body{
+    background-image: url(../img/unsplash_photo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: #80CDE7;
+    font-weight: bold;
+    border: 8px solid#80CDE7;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-text{
+    font-family: 'Parisienne', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yellowtail', cursive;
+}
+.nat{
+    font-size: 50px ;
+}
+.title{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: #80CDE7; 
+    font-weight: bold;
+    border: 8px solid #80CDE7;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 85%;
+    padding: 50px;
+    text-align: center;
+}
+.title1{
+    font-size: 50px;
+}
+
